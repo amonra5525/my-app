@@ -1,29 +1,36 @@
-﻿public class Legkovoicar
+﻿public class Transport
+{
+    public string Ocenka;
+}
+
+public class Passengercar : Transport
 {
     public int Ocenka = 2;
 }
 
-public class Velosiped
+public class Bicycle : Transport
 {
     public int Ocenka = 1;
 }
 
-public class Sportcar
+public class Sportcar : Transport
 {
     public int Ocenka = 4;
 }
 
 static class Sravnenie
 {
-    public static void Kel(Legkovoicar car, Velosiped bike, Sportcar scar)
+    public static void Kel(Transport)
     {
-        if (car.Ocenka < 3)
-            Console.WriteLine("Хуйня");
-        if (bike.Ocenka < 3)
-            Console.WriteLine("Хуйня");
-        if (scar.Ocenka < 3)
-            Console.WriteLine("Хуйня");
-        else Console.WriteLine("Заебись");
+        switch (Transport.Ocenka)
+        {
+            case < 3:
+                Console.WriteLine("Хуйня");
+                break;
+            default:
+                Console.WriteLine("Заебись");
+                break;
+        }
     }
 }
 
@@ -31,8 +38,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Legkovoicar car = new Legkovoicar();
-        Velosiped ped = new Velosiped();
+        Passengercar car = new Passengercar();
+        Bicycle ped = new Bicycle();
         Sportcar scar = new Sportcar();
         Sravnenie.Kel(car, ped, scar);
     }
