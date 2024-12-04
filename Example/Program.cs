@@ -2,14 +2,17 @@
 {
     public int Ocenka = 2;
 }
+
 public class Velosiped
 {
     public int Ocenka = 1;
 }
+
 public class Sportcar
 {
     public int Ocenka = 4;
 }
+
 static class Sravnenie
 {
     public static void Kel(Legkovoicar car, Velosiped bike, Sportcar scar)
@@ -23,7 +26,8 @@ static class Sravnenie
         else Console.WriteLine("Заебись");
     }
 }
- class Program
+
+class Program
 {
     static void Main(string[] args)
     {
@@ -32,6 +36,4 @@ static class Sravnenie
         Sportcar scar = new Sportcar();
         Sravnenie.Kel(car, ped, scar);
     }
-
 }
-
