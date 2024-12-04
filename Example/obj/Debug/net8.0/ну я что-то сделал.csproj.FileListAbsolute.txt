@@ -1,0 +1,14 @@
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\bin\Debug\net8.0\ну я что-то сделал.exe
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\bin\Debug\net8.0\ну я что-то сделал.deps.json
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\bin\Debug\net8.0\ну я что-то сделал.runtimeconfig.json
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\bin\Debug\net8.0\ну я что-то сделал.dll
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\bin\Debug\net8.0\ну я что-то сделал.pdb
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\obj\Debug\net8.0\ну я что-то сделал.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\obj\Debug\net8.0\ну я что-то сделал.AssemblyInfoInputs.cache
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\obj\Debug\net8.0\ну я что-то сделал.AssemblyInfo.cs
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\obj\Debug\net8.0\ну я что-то сделал.csproj.CoreCompileInputs.cache
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\obj\Debug\net8.0\ну я что-то сделал.dll
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\obj\Debug\net8.0\refint\ну я что-то сделал.dll
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\obj\Debug\net8.0\ну я что-то сделал.pdb
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\obj\Debug\net8.0\ну я что-то сделал.genruntimeconfig.cache
+C:\Users\amonr\source\repos\ну я что-то сделал\ну я что-то сделал\obj\Debug\net8.0\ref\ну я что-то сделал.dll
