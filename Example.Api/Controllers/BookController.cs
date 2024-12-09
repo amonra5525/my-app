@@ -5,12 +5,14 @@ namespace Example.Api.Controllers;
 
 // подсказки
 // не должно быть одинаковых маршрутов!
+// задание:
+// напиши по аналогии функции для всех методов rest api с любым функционалом
 
 [ApiController]
 [Route("api/books")]
 public class BooksController : ControllerBase
 {
-    [HttpGet("GetBooks")]
+    [HttpGet("GetBooks")] // Http GET
     public async Task<List<Book>> GetBooks()
     {
         var books = new List<Book>();
@@ -23,4 +25,6 @@ public class BooksController : ControllerBase
 
         return books;
     }
+    
+    // тут и далее
 }
