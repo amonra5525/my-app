@@ -26,16 +26,32 @@ public class BooksController : ControllerBase
         return books;
     }
 
-    [HttpDelete("DeleteBooks/{Price}")]
-    public async Task<List<Book>> DeleteBooks(int price)
+    [HttpDelete("DeleteBooks")]
+    public async Task<List<Book>> DeleteBooks()
     {
-        var books = new List<Book>();
-        books.Add(new Book()
+        var books = new List<Book>
         {
-            Name = "Martin Iden",
-            Price = 15,
-            Author = "Jack London"
-        });
+
+            new Book { Name = "Shine", Price = 7, Author = "Stephen King" },
+            new Book { Name = "Pet Sematary", Price = 4, Author = "Leo Tolstoy" },
+            new Book { Name = "The Count of Monte Cristo", Price = 5, Author = "Alexandre Dumas" }
+
+        };
+        if (books.Any())
+        {
+            
+            books.RemoveAt(2);
+        }
         return books;
     }
-}
+}       
+        
+    
+        
+        
+        
+        
+    
+        
+        
+    
