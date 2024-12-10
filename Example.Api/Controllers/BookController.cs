@@ -25,6 +25,17 @@ public class BooksController : ControllerBase
 
         return books;
     }
-    
-    // тут и далее
+
+    [HttpDelete("DeleteBooks/{Price}")]
+    public async Task<List<Book>> DeleteBooks(int price)
+    {
+        var books = new List<Book>();
+        books.Add(new Book()
+        {
+            Name = "Martin Iden",
+            Price = 15,
+            Author = "Jack London"
+        });
+        return books;
+    }
 }
