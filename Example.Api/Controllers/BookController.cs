@@ -39,12 +39,45 @@ public class BooksController : ControllerBase
         };
         if (books.Any())
         {
-            
+
             books.RemoveAt(2);
         }
+
         return books;
     }
-}       
+
+    [HttpPost("AddBook")]
+    public async Task<Book> AddBook()
+    {
+        var books = new List<Book>
+        {
+            new Book { Name = "Shine", Price = 15, Author = "Jack London" },
+            new Book { Name = "Pet Sematary", Price = 4, Author = "Leo Tolstoy" },
+            new Book { Name = "The Count of Monte Cristo", Price = 5 }
+        };
+        var newbook = new Book {Name = "Warcraft", Price = 7, Author = "Blizzard" };
+        books.Add(newbook);
+        return newbook;
+    }
+
+    [HttpPut("UpdateBook")]
+    public async Task<List<Book>> UpdateBook()
+    {
+        var books = new List<Book>
+        {
+            new Book { Name = "Shine", Price = 15, Author = "Jack London" },
+            new Book { Name = "Pet Sematary", Price = 4, Author = "Leo Tolstoy" }
+        };
+        var updatedBooks = books.Where(b => !(b.Name == "Shine" && b.Price == 15 && b.Author == "Jack London")).ToList();
+        return updatedBooks;
+    }
+}   
+        
+        
+    
+
+
+      
         
     
         
