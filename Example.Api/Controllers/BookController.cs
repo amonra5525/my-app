@@ -53,7 +53,7 @@ public class BooksController : ControllerBase
         {
             new Book { Name = "Shine", Price = 15, Author = "Jack London" },
             new Book { Name = "Pet Sematary", Price = 4, Author = "Leo Tolstoy" },
-            new Book { Name = "The Count of Monte Cristo", Price = 5 }
+            new Book { Name = "The Count of Monte Cristo", Price = 5, Author = "Leo Tolstoy" }
         };
         var newbook = new Book {Name = "Warcraft", Price = 7, Author = "Blizzard" };
         books.Add(newbook);
