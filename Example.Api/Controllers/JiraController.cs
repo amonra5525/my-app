@@ -2,9 +2,6 @@
 
 namespace Example.Api.Controllers;
 
-/// <summary>
-/// TTTT
-/// </summary>
 [ApiController]
 [Route("[controller]")]
 public class JiraController : ControllerBase
