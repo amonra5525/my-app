@@ -3,7 +3,7 @@
 namespace Example.Api.Controllers;
 
 /// <summary>
-/// TTTTTTT
+/// TTTT
 /// </summary>
 [ApiController]
 [Route("[controller]")]
